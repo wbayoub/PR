@@ -53,8 +53,7 @@ Decision tree | 24.14% | 26.46% | 24.14% | 37.98% | 0.0030s
 SVM | 38.23% | 43.10% | 38.23% | 42.92% | 0.1952s
 Random Forest | 38.03% | 44.05% | 38.03% | 41.67% | 0.7339s
 
-The neural network achieved the highest accuracy, precision, recall, and F1-score on the test set.
-
+While the Random Forest and SVM models achieve similar accuracy in classifying phonemes, the Random Forest emerges as the preferred choice due to its significantly faster computation time. Clocking in at four times faster than the SVM, the Random Forest makes it a more efficient solution for large datasets.
 ### Next Steps
 
 Future work could explore the following directions:
@@ -63,9 +62,6 @@ Future work could explore the following directions:
 * Engineering additional features to improve classification accuracy.
 * Investigating other classification models.
 
-### Code
-
-The code for this project is available on GitHub at [https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories).
 
 ### Additional Information
 
