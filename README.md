@@ -46,12 +46,12 @@ The models were trained on the extracted features and evaluated on a held-out te
 
 The following table shows the performance of the four classification models on the test set:
 
-Model | Accuracy | Precision | Recall | F1-score
-------- | -------- | -------- | -------- | --------
-Neural network | 95.2% | 94.8% | 95.1% | 94.9%
-Random forest | 94.7% | 94.3% | 94.6% | 94.4%
-Decision tree | 93.8% | 93.4% | 93.7% | 93.5%
-SVM | 92.9% | 92.5% | 92.8% | 92.7%
+Model | Accuracy | Precision | Recall | F1-score | Prediction Time
+------- | -------- | -------- | -------- | -------- | --------
+Neural network | 37.42% | 36.88% | 37.42% | 38.97% | 0.4157s
+Decision tree | 24.14% | 26.46% | 24.14% | 37.98% | 0.0030s
+SVM | 38.23% | 43.10% | 38.23% | 42.92% | 0.1952s
+Random Forest | 38.03% | 44.05% | 38.03% | 41.67% | 0.7339s
 
 The neural network achieved the highest accuracy, precision, recall, and F1-score on the test set.
 
