@@ -50,8 +50,8 @@ Model | Accuracy | Precision | Recall | F1-score | Prediction Time
 ------- | -------- | -------- | -------- | -------- | --------
 Neural network | 37.42% | 36.88% | 37.42% | 38.97% | 0.4157s
 Decision tree | 24.14% | 26.46% | 24.14% | 37.98% | 0.0030s
-SVM | 38.23% | 43.10% | 38.23% | 42.92% | 0.1952s
-Random Forest | 38.03% | 44.05% | 38.03% | 41.67% | 0.7339s
+SVM | 38.23% | 43.10% | 38.23% | 42.92% | 6.1952s
+Random Forest | 38.03% | 44.05% | 38.03% | 41.67% | 1.7339s
 
 While the Random Forest and SVM models achieve similar accuracy in classifying phonemes, the Random Forest emerges as the preferred choice due to its significantly faster computation time. Clocking in at four times faster than the SVM, the Random Forest makes it a more efficient solution for large datasets.
 ### Next Steps
