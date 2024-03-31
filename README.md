@@ -8,7 +8,7 @@ This project aims to develop a system to classify phonemes (units of sound) in c
 
 #### Data Acquisition
 
-The children's pronunciation database was downloaded from [https://www.ibm.com/docs/SSGU8G_12.1.0/com.ibm.sqls.doc/ids_sqs_1645.htm](https://www.ibm.com/docs/SSGU8G_12.1.0/com.ibm.sqls.doc/ids_sqs_1645.htm). The database contains recordings of children pronouncing a variety of words.
+The children's pronunciation database was downloaded from https://phon.talkbank.org/access/French/Warnier.html. The database contains recordings of children pronouncing a variety of words.
 
 #### Preprocessing
 
