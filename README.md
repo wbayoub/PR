@@ -1,4 +1,4 @@
-## Phoneme Classification from Children's Pronunciations
+## Phoneme Classification from French Children's Pronunciations
 
 ### Objective
 
